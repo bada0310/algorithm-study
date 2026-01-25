@@ -1,4 +1,4 @@
-# algorighm study 🤓
+# algorithm study 🤓
 
 ## 👩‍👦‍👦 **스터디 멤버**
 <table>
@@ -47,7 +47,7 @@
 
 ### 📁 폴더 구조
 
-`본인닉네임/사이트/문제파일` 형식을 지켜주세요.
+`본인닉네임/사이트/문제번호_문제제목.확장자` 형식을 지켜주세요.
 
 ```text
 gildonghong/
@@ -136,8 +136,13 @@ git push origin master
 
 2. GitHub 웹사이트에서 **Pull Request (PR)** 탭으로 이동하여 `New Pull Request`를 누릅니다.
 
-* 제목: `🔀merge: [260101] 이름 문제풀이` or `🔀merge: [week 1] 이름 도전문제풀이`
-* `Create Pull Request` 버튼을 누릅니다.
+* 제목을 규칙에 맞게 작성하고 `Create Pull Request` 버튼을 누릅니다.
+
+### 👓 원본 저장소 동기화
+원본 저장소의 README가 업데이트되면, 내 저장소에도 반영해야 합니다.
+1. GitHub 내 저장소 메인 화면에 간다.
+2. `Sync Fork` 버튼을 누르고 `Update branch`를 클릭한다.
+3. 로컬(내 컴퓨터)에서 `git pull origin main`을 입력하여 변경 사항을 받아온다.
 
 <br/>
 
