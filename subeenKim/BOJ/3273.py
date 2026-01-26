@@ -5,7 +5,7 @@ x = int(input())
 # i는 리스트의 가장 앞, j는 리스트의 마지막 인덱스에 위치시킨다.
 cnt, i, j = 0, 0, n-1
 a_list.sort()
-while True :
+while i < j :
     # 두 수의 합이 x보다 크면 요소의 값이 더 작아야 하기 때문에 j를 한 칸 당긴다.
     if a_list[i]+a_list[j] > x :
         j -= 1
@@ -17,7 +17,4 @@ while True :
     else :
         i += 1
 
-    # j가 i와 같아지거나 넘어서면 종료한다.
-    if i >= j :
-        break
 print(cnt)
