@@ -23,21 +23,16 @@ public class BOJ15652 {
 
     private static void dfs(int depth, int start){
         if(depth == M){
-
-            for(int j = 1; j < M; j++){
-                if(comb[j-1] > comb[j]) return;
-            }
-
-            for(int k = 0; k < M; k++){
-                sb.append(comb[k]).append(" ");
+            for (int num : comb) {
+                sb.append(num).append(" ");
             }
             sb.append("\n");
-            
             return;
         }
+        
         for(int i = start ; i < N+1 ; i++){
             comb[depth] = i;
-            dfs(depth+1, start);
+            dfs(depth+1, i);
         }
     }
 }
